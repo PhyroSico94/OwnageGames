@@ -1,0 +1,278 @@
+body	{	font-family: 'Sedgwick Ave Display', cursive;
+	
+		}
+.checkthis{
+			display:inline-block;
+			width:180px;
+			padding:0px;
+			margin:0px;
+}
+.body	{	padding:0px;
+			margin-top: 0px; 
+			margin-right: 0px; 
+			margin-bottom: 0px; 
+			margin-left: 0px;
+		}
+.topmenu{   display: -webkit-flex;
+			display: flex;
+			width: 100%;
+			position:fixed;
+			z-index: 99 !important;
+			height: 50px;
+			background-color: white;
+		}
+		
+		
+.heading {	
+			font-size:45px ;			
+			text-align:top; 
+			color:#cc1b21 ; 
+			margin: 0px ; 
+		}
+.tiny	{
+			display: flex;
+			width: 100px;
+			height: 44px;
+ 			line-height: 3.2;
+			background-color: white;
+			font-size:12px;
+			text-decoration: underline;
+		}
+.contents {
+			width: 100%;
+			height: 90%;
+			position: relative;
+}
+.checkboxes{ 
+			background-color: grey;
+			overflow: visible;
+}
+label{ 		display:inline-block;
+   			min-width:10%;
+
+}
+.searchbar
+{
+			display:inline-block;
+			Background-color: red;
+			background: linear-gradient(to bottom right, red, black);
+			width: 100%;
+			text-align:center;
+			box-shadow: 0px 2.5px 3px grey;
+}
+.searchb{
+			padding:4px;
+			margin: 6px;
+			border-radius: 25px;
+			background-color: green;
+			font-size:16px;
+			border: none;
+}
+#f1{
+			 display: inline;
+			 font-size:20px;
+	 		text-decoration: underline;
+}
+.filler {
+			/*margin-left:20.5%;*/
+			height:100%;
+}
+.sidebar{
+			width: 100%;
+    		padding-top: 50px;
+    		background-color: #c9c9c9;
+    		position: relative;
+}
+
+.gamelistt{
+			text-align:center;
+			display:inline-block;
+			margin: 1px ;
+			color: red;
+			background-color: black;
+}
+.searchresult{
+			display:inline-flex;
+			flex: 0 0 0;
+			font-family: "Times New Roman", Georgia, Serif;
+			text-decoration: none;
+			background: linear-gradient(to bottom right, white, #7f7e7e);
+			width: 100% ;
+			margin: 5px 0px 5px 0px;
+			box-shadow: 5px 2px 5px grey;
+			padding-left:10px;
+}
+.searchresult:hover{
+			background: linear-gradient(to bottom right, white, red);
+}
+		
+.selection{
+			display:flex;
+			justify-content: center;
+}
+.gamep{		
+			margin-left:10px;
+			display: inline-block;
+    		width: 40%;
+		    font-size: 25px;
+			font-weight: bold;
+			color: black;
+}
+.tagp{		
+			width:20%;
+			display: inline-block;
+			text-align: center;
+			margin: auto;
+
+}
+.tag{			
+			display: inline-block;
+		    color: black;
+		    font-size: 16px;
+		    font-weight: bold;
+		    margin: 2px;
+		    padding: 2px;
+			text-transform: uppercase;
+			background-color: #96ff5e;
+			border-radius: 5px;
+			text-align: center;
+
+}
+
+
+.platp{		
+			width: 20%;
+			display: inline-block;
+		    color: black;
+		    font-size: 16px;
+			text-transform: uppercase;
+			text-align: center;
+			margin: auto;
+}
+
+.releasp{	
+			width:20%;		
+			display: inline-block;
+		    color: black;
+		    font-size: 20px;
+		    text-align: center;
+		    margin: auto;
+}
+.gametitle{    
+	        text-align: center;
+	        text-transform:uppercase;
+	        font-size: 50px;
+	        font-weight: bold;
+			font-family: "Times New Roman", Georgia, Serif;
+	        background: linear-gradient(to bottom right, white, #7f7e7e);
+	        border-radius: 50px;
+	        margin: 5px;
+	        color: black;
+}
+.cattitle{
+    margin: 2px;
+	font-family: "Times New Roman", Georgia, Serif;
+    text-transform:uppercase;
+    font-size: 20px;
+}
+.destitle{
+	margin: 2px;
+	text-align: center; 
+	font-family: "Times New Roman", Georgia, Serif;
+    text-transform:uppercase;
+    font-size: 20px;
+}
+.description{   
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.videobox {
+	display: inline-block;
+	max-width: 50%;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.videosection{
+    background-color: #cecece;
+    padding-bottom: 10px;
+    
+}
+.tools{
+	padding: 20px;
+}
+.toollinks{
+	display:inline-block;
+	max-width: 50%;
+}
+#a:link {
+    		text-decoration: none;
+}
+
+#a:visited {
+			text-decoration: none;
+}
+
+#a:hover a:active {
+   			text-decoration: none;
+}
+
+/* Dropdown Button */
+.dropbtn {
+		    color: #600000;
+		    width:100%;
+			text-align:center;
+		    padding: 6px;
+		    font-size: 16px;
+		    border: none;
+		    cursor: pointer;
+		    background-color: white;
+			box-shadow: 0px 2.5px 3px grey;
+}
+.footnote {
+			background: linear-gradient(to bottom right, red, black);
+			background-color:red;
+			width: 100%;
+		    height:30px;
+
+}
+/* Dropdown button on hover & focus */
+.dropbtn:hover {
+    		background-color: #f4f4f4;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+		    position: fixed;
+		    display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+		    display: none;
+		    background-color: #f9f9f9;
+}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+			display:inline-block;
+}
+.userbar {
+	text-align: right;
+	margin: 5px;
+	padding: 5px;
+}
+.logoutbutton { 
+	text-decoration: none;
+	background-color: green;
+	color: white;
+	margin: 5px;
+	padding: 5px;
+}
+.barbutton {
+	text-decoration: none;
+	background-color: blue;
+	color: white;
+	margin: 5px;
+	padding: 5px;
+}

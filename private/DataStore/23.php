@@ -1,0 +1,14 @@
+<?php
+$entrystate='unpublished';
+$platforms=array('windows');
+$genretags=array('ACT','PLAT');
+$gametitle='dasd';
+$descriptiontext='gfsdgerg';
+$reviewvideourl=array('www.test.co.za');
+$instructionalvideourl=array('https://www.youtube.com/embed/-W1D6no2KKo');
+$reviewtext=array('http://toucharcade.com/2014/12/19/marvel-contest-of-champions-review/');
+$webguidelink=array('https://www.youtube.com/embed/VTQeco2AymM');
+$toollinks=array('http://marvel-contestofchampions.wikia.com/wiki/Main_Page');
+$sellers=[];
+$company=[];
+?>

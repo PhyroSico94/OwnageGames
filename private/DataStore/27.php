@@ -1,0 +1,14 @@
+<?php
+$entrystate='unpublished';
+$platforms=array('windows');
+$genretags=array('ACT','FPS');
+$gametitle='fdsfs';
+\$descriptiontext="bleh'bleh";\n$reviewvideourl=array('affs');
+$instructionalvideourl=array('dag');
+$reviewtext=array('asdgsadgsadg');
+$webguidelink=array('gas');
+$toollinks=array('asg');
+$sellers=['fsdf'];
+$company=['fadsfs'];
+$monatry=['fadsfs'];
+?>

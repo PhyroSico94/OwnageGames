@@ -1,0 +1,14 @@
+<?php
+$entrystate='unpublished';
+$platforms=array('windows','linux');
+$genretags=array('ACT','PLAT');
+$gametitle='randomgame2';
+$descriptiontext="randomasfuck'fuck";\n$reviewvideourl=array('sdfgdswr');
+$instructionalvideourl=array('sdgdrestyg');
+$reviewtext=array('asdgf');
+$webguidelink=array('sdrfgt');
+$toollinks=array('asdrftg');
+$sellers=['sdaerftg'];
+$company=['adsrftg'];
+$monatry=['adsrftg'];
+?>
